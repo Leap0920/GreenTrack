@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("GreenTrack"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+009112dedb9738c54a0cb6ef49d4585a78fc8d6c"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("GreenTrack"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("GreenTrack"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
