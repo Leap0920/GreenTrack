@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kenshieesh\\source\\repos\\GreenTrack\\GreenTrack\\GreenTrack.vbproj": {}
+    "C:\\Users\\carlo\\source\\repos\\GreenTrack\\GreenTrack\\GreenTrack\\GreenTrack.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Kenshieesh\\source\\repos\\GreenTrack\\GreenTrack\\GreenTrack.vbproj": {
+    "C:\\Users\\carlo\\source\\repos\\GreenTrack\\GreenTrack\\GreenTrack\\GreenTrack.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kenshieesh\\source\\repos\\GreenTrack\\GreenTrack\\GreenTrack.vbproj",
+        "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\GreenTrack\\GreenTrack\\GreenTrack\\GreenTrack.vbproj",
         "projectName": "GreenTrack",
-        "projectPath": "C:\\Users\\Kenshieesh\\source\\repos\\GreenTrack\\GreenTrack\\GreenTrack.vbproj",
-        "packagesPath": "C:\\Users\\Kenshieesh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kenshieesh\\source\\repos\\GreenTrack\\GreenTrack\\obj\\",
+        "projectPath": "C:\\Users\\carlo\\source\\repos\\GreenTrack\\GreenTrack\\GreenTrack\\GreenTrack.vbproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\source\\repos\\GreenTrack\\GreenTrack\\GreenTrack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kenshieesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +49,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
